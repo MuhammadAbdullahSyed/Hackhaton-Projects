@@ -1,0 +1,76 @@
+body{
+    font-family: calibari,  sans-serif;
+    background-color:white;
+    margin: 0;
+    padding: 50px;;
+}
+.resume-container{
+    display: flex;
+    background-color:lightskyblue;
+    width: 80%;
+    margin:0 auto ;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.1)
+}
+.profile{
+    width: 200px;
+    height: 200px;
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 7px solid black;
+    margin-bottom: 20px;
+}
+.left-section{
+    font-style: italic;
+    background-color:lightseagreen  ;
+    color: black;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    border-right: 5px solid black;
+}
+h1{
+    font-size: 25px;
+    margin: 15px;
+    margin-bottom:20px;
+    color: black;
+    font-style: italic;
+    text-align: center;
+    box-shadow:0 0 10px black;
+}
+h3{
+    font-size: 20px;
+    font-style: italic;
+    padding:2%;
+    color: black;
+    margin: 2px 0 10px;
+    border-radius:10px;
+    box-shadow: 0 0 15px black;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+ul{
+    list-style-type:square;
+    padding: 10;
+    margin: 10px;
+}
+ul li{
+    margin: 10px;
+}
+.right-section{
+    padding: 15px;
+    width: 65%;
+    background-color:beige;
+}
+button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+    margin-top: 8px;
+    font-size: 20px;
+    background-color: beige;
+}
+button:hover{
+    background-color: lightblue;
+}
